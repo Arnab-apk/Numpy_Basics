@@ -6,9 +6,9 @@ print(zeros_array)
 
 #np.ones(shape)
 ones_array=np.ones([2,3])
-print(ones_array)
+print(f"{ones_array}\n")
 
 #full(shape,values)
-
-filled_array=np.full([2,2],7)
+#to set the array for specific number 
+filled_array=np.full([2,2],2)
 print(filled_array)
